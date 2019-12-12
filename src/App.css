@@ -1,0 +1,24 @@
+.logo-docplanner {
+  width: 268px;
+  height: 33px;
+}
+.link-header {
+  list-style-type: none;
+  display: flex;
+}
+.Navbar{
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Nav-header{
+  position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 3;
+    background: hsla(0,0%,100%,.98);
+    transition: box-shadow .25s ease;
+}
